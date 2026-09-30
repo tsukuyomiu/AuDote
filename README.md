@@ -14,8 +14,8 @@ O processo de adoção de animais frequentemente sofre com a falta de centraliza
  **Gabriel Nonato da Silva** (0020241) - Dev Back-End, UI/UX
 
 ## 🎥 Vídeo Pitch
-[Link para o Vídeo Pitch no YouTube (Não Listado)](https://youtube.com/link-aqui) *(Substituir pelo link após a gravação)*
+[Link para o Vídeo Pitch no YouTube](https://youtube.com/)
 
 ## 📄 Documentação
-* O [Documento de Visão](./docs/AUDOTE_visao.pdf) completo encontra-se na pasta `/docs`.
-* A [Logo Oficial](./docs/AUDOTE_logo.png) (e sua versão em vetor `.svg`) também se encontra na mesma pasta.
+* O [Documento de Visão](./docs/Documento de Visão - AuDote!.pdf) completo encontra-se na pasta `/docs`.
+* A [Logo Oficial](./docs/Emblema de Amor entre Cão e Gato.png) (e sua versão em vetor `.svg`) também se encontra na mesma pasta.
