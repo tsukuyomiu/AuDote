@@ -12,7 +12,7 @@ O processo de adoção de animais frequentemente sofre com a falta de centraliza
 * **Gabryel Henrique Pereira de Souza** (0022470)
 * **Érica Beatriz de Araújo Lopes** (0022515) - Analista de Requisitos, UI/UX
 * **Gabriel Nonato da Silva** (0020241) - Dev Back-End, UI/UX
-* **Ana Luiza Jesus da Silva ** (0022735) - Analista de Requisitos
+* **Ana Luiza Jesus da Silva** (0022735) - Analista de Requisitos
 
 ## 🎥 Vídeo Pitch
 [Link para o Vídeo Pitch no YouTube](https://youtube.com/)
