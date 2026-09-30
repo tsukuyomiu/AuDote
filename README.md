@@ -1,4 +1,4 @@
-# <img src="./docs/Emblema de Amor entre Cão e Gato.png" width="50" height="50" align="absmiddle" /> AuDote!
+# <img src="./docs/AuDote!_Logo.png" width="50" height="50" align="absmiddle" /> AuDote!
 
 **Slogan:** Transforme uma espera em um lar.
 
@@ -17,5 +17,5 @@ O processo de adoção de animais frequentemente sofre com a falta de centraliza
 [Link para o Vídeo Pitch no YouTube](https://youtube.com/)
 
 ## 📄 Documentação
-* O [Documento de Visão](./docs/Documento de Visão - AuDote!.pdf) completo encontra-se na pasta `/docs`.
-* A [Logo Oficial](./docs/Emblema de Amor entre Cão e Gato.png) (e sua versão em vetor `.svg`) também se encontra na mesma pasta.
+* O [Documento de Visão](./docs/AuDote!_visao.pdf) completo encontra-se na pasta `/docs`.
+* A [Logo Oficial](./docs/AuDote!_Logo.png) (e sua versão em vetor `.svg`) também se encontra na mesma pasta.
