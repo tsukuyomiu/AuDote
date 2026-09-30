@@ -3,7 +3,7 @@
 **Slogan:** Transforme uma espera em um lar.
 
 ## 📖 Justificativa do Projeto
-O processo de adoção de animais frequentemente sofre com a falta de centralização de informações e dificuldades de comunicação entre abrigos/protetores e possíveis adotantes. O **AuDote!** nasce para resolver esse problema, oferecendo uma plataforma multiplataforma (Android e iOS) que conecta de forma prática, rápida e segura pessoas interessadas em adotar com animais que precisam de um lar. Através de um ambiente amigável e com filtros específicos (porte, idade, localização), buscamos reduzir o tempo de espera dos animais nos abrigos e incentivar a adoção responsável.
+O processo de adoção de animais frequentemente sofre com a falta de centralização de informações e dificuldades de comunicação entre abrigos/protetores e possíveis adotantes. O **AuDote!** nasce para resolver esse problema, oferecendo uma plataforma multiplataforma para Android e iOS que conecta de forma prática, rápida e segura pessoas interessadas em adotar com animais que precisam de um lar. Através de um ambiente amigável e com filtros específicos de porte, idade, localização, buscamos reduzir o tempo de espera dos animais nos abrigos e incentivar a adoção responsável.
 
 ## 👥 Integrantes da Equipe
 * **Luan Thayller Aguiar de Sousa** (0023194) - Gerente de Projeto, Dev Front-End, UI/UX
