@@ -1,4 +1,4 @@
-# <img src="./docs/Logo AuDote! com Cão e Gato Carinhosos.png" width="50" height="50" align="absmiddle" /> AuDote!
+# <img src="./docs/Emblema de Amor entre Cão e Gato.png" width="50" height="50" align="absmiddle" /> AuDote!
 
 **Slogan:** Transforme uma espera em um lar.
 
