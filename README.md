@@ -15,7 +15,7 @@ O processo de adoção de animais frequentemente sofre com a falta de centraliza
 * **Ana Luiza Jesus da Silva** (0022735) - Analista de Requisitos
 
 ## 🎥 Vídeo Pitch
-[Link para o Vídeo Pitch no YouTube](https://youtu.be/ocouKB_tazs)
+[Link para o Vídeo Pitch no YouTube](https://youtu.be/GmXs8nrd750)
 
 ## 📄 Documentação
 * O [Documento de Visão](./docs/AuDote!_visao.pdf) completo encontra-se na pasta `/docs`.
