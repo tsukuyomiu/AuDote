@@ -1,0 +1,2 @@
+import { Stack } from 'expo-router';
+export function AppNavigator() { return <Stack screenOptions={{ headerShown: false, animation: 'slide_from_right' }}><Stack.Screen name="index" /><Stack.Screen name="login" /><Stack.Screen name="register" /><Stack.Screen name="recover" /><Stack.Screen name="feed" /><Stack.Screen name="pet/[id]" /><Stack.Screen name="profile" /><Stack.Screen name="favorites" /><Stack.Screen name="my-pets" /><Stack.Screen name="publish" /></Stack>; }

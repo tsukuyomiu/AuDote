@@ -1,0 +1,13 @@
+import { AppSnapshot, Pet, PublicProfile, Species } from '../types';
+const dogImages = ['photo-1552053831-71594a27632d', 'photo-1587300003388-59208cc962cb', 'photo-1543466835-00a7907e9de1', 'photo-1517849845537-4d257902454a'];
+const catImages = ['photo-1573865526739-10659fec78a5', 'photo-1514888286974-6c03e2ca1dba', 'photo-1495360010541-f48722b34f7d', 'photo-1511044568932-338cba0ad803'];
+const birdImages = ['photo-1444464666168-49d633b86797', 'photo-1552728089-57bdde30beb3', 'photo-1522926193341-e9ffd686c60f', 'photo-1452570053594-1b985d6ea890'];
+export const publicGuardians: PublicProfile[] = [{ id: 'demo-guardian', display_name: 'Equipe Patinhas do DF', organization_name: 'Patinhas do DF' }];
+const names = ['Bidon', 'Mel', 'Miu', 'Frederico', 'Amora', 'Theo', 'Luna', 'Pipoca', 'Nina', 'Bento', 'Cacau', 'Sol'];
+const petRegions = ['Ceilândia', 'Taguatinga', 'Guará', 'Gama', 'Águas Claras', 'Brasília', 'Samambaia', 'Lago Sul', 'Planaltina', 'Guará', 'Gama', 'Ceilândia'];
+export const demoPets: Pet[] = names.map((name, index) => {
+  const species: Species = index % 3 === 0 ? 'cat' : index % 3 === 1 ? 'dog' : 'bird';
+  const images = species === 'cat' ? catImages : species === 'dog' ? dogImages : birdImages;
+  return { id: `demo-pet-${index + 1}`, owner_id: 'demo-guardian', name, species, breed: species === 'bird' ? 'Ave doméstica' : 'Sem raça definida', sex: index % 2 ? 'female' : 'male', size: species === 'bird' ? 'small' : index % 2 ? 'medium' : 'small', age_group: index % 4 === 0 ? 'young' : index % 4 === 1 ? 'adult' : index % 4 === 2 ? 'puppy' : 'senior', age_text: ['1 ano', '3 anos', '4 meses', '8 anos'][index % 4], region: petRegions[index], city: 'Brasília', description: `${name} espera por uma família que ofereça carinho, cuidado e um lar seguro. A adaptação acontece com acompanhamento do responsável e respeito ao tempo do animal.`, health_notes: 'Avaliação veterinária em dia. Consulte o responsável sobre os cuidados específicos e o histórico de saúde.', behavior: index % 2 ? 'Sociável e brincalhão. Adora companhia e atividades tranquilas.' : 'Calmo e carinhoso. Precisa de uma adaptação gradual ao novo lar.', traits: species === 'bird' ? ['affectionate'] : ['vaccinated', 'castrated', 'affectionate', ...(index % 2 ? ['good_with_dogs' as const] : ['good_with_cats' as const])], photo_urls: [`https://images.unsplash.com/${images[Math.floor(index / 3)]}?auto=format&fit=crop&w=900&q=85`], status: index === 10 ? 'adopted' : index === 11 ? 'unavailable' : 'available', created_at: '2026-11-19T12:00:00Z' };
+});
+export function createDemoSnapshot(): AppSnapshot { return { pets: demoPets, profile: null, favorites: [], interests: [], contacts: [], signedIn: false }; }
